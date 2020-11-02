@@ -5,7 +5,211 @@
 *{
     margin:0;
     padding:0;
+    box-sizing:border-box;
+
+    
 }
 
 /* Fill your code*/
 
+.cake-world{
+    width: 280px;
+    height: 180px;
+    background:black;
+    border-radius: 50%;
+    
+    
+}
+.header{
+    display: flex;
+    justify-content: center;
+    background-color:mediumvioletred;
+    margin-bottom: -72px;
+    
+}
+#cake-img{
+position: relative;
+left: 55px;
+}
+
+#cake-text{
+position: relative;
+color: white;
+left : 45px;
+bottom:18px;
+}
+.big-container{
+    
+     background-color: violet;
+     width:100%;
+     padding-top:55px;
+     padding-bottom: 35px;
+     display:flex;
+     justify-content: space-around;
+}
+
+.image{
+    position:relative;
+    margin:auto;
+
+}
+
+
+.container{
+    color:white;
+    position:absolute;
+    top:50px;
+    left:80px;
+}
+.image2{
+    position:relative;
+   margin:auto;
+  
+   
+}
+p{
+    padding-bottom:15px;
+}
+
+.container2{
+    
+    color:white;
+   
+    position:absolute;
+   
+  top:40px;
+  left:60px;
+    
+    
+}
+
+
+.footer{
+    width: 100%;
+    background-color: mediumvioletred;
+    display:flex;
+    justify-content: space-around;
+    padding: 40px 0;
+}
+.button {
+    background-color: violet;
+    border: none;
+    color: white;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    
+    font-size: 16px;
+    border-radius: 10px;
+    
+  }
+  .button:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  }
+  .button1{
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    
+    font-size: 16px; 
+    border-radius: 10px;
+  }
+
+#layer1{
+    border-radius: 10px;
+    height: 2px;
+    width: 80px;
+    visibility: hidden; 
+    background: #ff4757;
+    margin: auto;
+    padding: 20px;
+}
+
+#layer2{
+     width: 200px;
+   
+    
+    border-radius: 10px;
+    width: 120px;
+    height: 2px;
+    visibility: hidden; 
+    background: #f7f1e3;
+    margin: auto;
+    padding: 20px;
+
+}
+
+#layer3{
+    height: 2px;
+    width: 160px;
+   
+    visibility:hidden; 
+    border-radius: 10px;
+
+    background:yellow;
+        margin: auto;
+        padding: 20px;
+    
+}
+#layer4{
+         height: 2px;
+
+    
+         width: 200px;
+     
+        visibility: hidden;
+        border-radius: 10px;
+        width: 180px;
+        
+       
+        background: orangered;
+        margin: auto;
+        padding: 20px;
+    
+    }
+#layer5{
+    width: 245px;
+   
+    visibility: hidden;
+    border-radius: 10px;
+   
+    height: 2px;
+   
+    background:orange;
+    margin: auto;
+    padding: 20px;
+}
+#candle{
+    width:50px;
+   position :relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+     top: 8px;
+     visibility: hidden; 
+ }
+.cake-container{
+    padding-top: 82px;
+}
+.button ,.button1{
+    transition-duration: 0.4s;
+  }
+  
+  .button:hover {
+    background-color: hotpink;
+    
+  }
+  .button1:hover{
+      background-color: orangered;
+  }
+  @media screen and (max-width: 792px) {
+   .big-container{
+display:block;
+background-color: plum;
+  }
+
+}
